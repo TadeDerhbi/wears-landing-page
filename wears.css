@@ -1,0 +1,573 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-left: 30px;
+}
+nav h1{
+    font-size: 25px;
+    color: black;
+    padding-top: 10px;
+}
+nav ul{
+    list-style-type: none;
+    display: inline-flex;
+    font-size: 15px;
+}
+nav ul li{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+#search{
+    margin-top: 5px;
+    width: 15px;
+}
+#searchweb{
+    border-radius: 7px;
+    margin-top: 30px;
+}
+/*Section class "one" begins here.*/
+.one{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    margin-left: 30px;
+}
+.one h2{
+    font-size: 45px;
+    font-family: arial;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.one1{
+    width: 70%;
+}
+.one h3{
+    font-size: 15px;
+    color:  rgba(179, 121, 45, 0.295);
+    font-family: arial;
+    margin-bottom: 20px;
+    width: 90%;
+}
+.one span{
+    background-color: rgba(179, 121, 45, 0.295);
+    color: black;
+    padding: 10px 13px;
+    border-radius: 10px;
+}
+/*grid for first catalaogue of styling.*/
+#pic1{
+    width: 400px;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.one_pics{
+    padding-left: 5px;
+}
+#pic2{
+    width: 200px;
+    height: 150px;
+    border-top-right-radius: 10px;
+}
+#pic21{
+    width: 200px;
+    height: 150px;
+    border-bottom-right-radius: 10px;
+}
+/*Brand Logo*/
+.two{
+    margin-left: 30px;
+    margin-left: 30px;
+}
+.two h3{
+    font-size: 15px;
+    margin-top: 70px;
+    background-color: rgba(179, 121, 45, 0.048);
+    padding: 3px 5px;
+    font-family: sans-serif;
+    text-align: center;
+    width: fit-content;
+}
+.two div{
+    display: inline-flex;
+    justify-content: space-around;
+}
+#bd1{
+    width: 8%;
+    height: 100px;
+}
+/*TadeDerhbi 241968*/
+/*Top trends section.*/
+.three h3{
+    font-size: 20px;
+    font-family: arial;
+    color: rgba(179, 121, 45, 0.295);
+    padding-top: 50px;
+}
+#check{
+    font-size: 10px;
+    color: black;
+    text-decoration: underline;
+    text-align: right;
+    margin-right: 30px;
+}
+.three{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+#trend1{
+    width: 30%;
+    border-radius: 10px;
+}
+#start1{
+    display: flex;
+    padding: 30px;
+}
+.start0{
+    display: block;
+}
+.start0 p{
+    background-color: white;
+    font-weight: normal;
+    font-size: 10px;
+    color: black;
+    font-family: Arial;
+    padding: 15px 20px;
+    margin-top: 100px;
+    text-align: left;
+    margin-left: -50px;
+}
+.start0 i{
+    font-size: 20px;
+    color: red;
+}
+.start0 h4{
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 20px;
+    padding-bottom: 0;
+}
+#trend2{
+    width: 30%;
+    border-radius: 10px;
+}
+#start11{
+    display: flex;
+    padding: 30px;
+}
+.start00{
+    display: block;
+}
+.start00 p{
+    background-color: white;
+    font-weight: normal;
+    font-size: 10px;
+    color: black;
+    font-family: Arial;
+    padding: 15px 20px;
+    margin-top: 100px;
+    text-align: left;
+    margin-left: -50px;
+}
+.start00 i{
+    font-size: 20px;
+    color: red;
+}
+.start00 h4{
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 20px;
+    padding-bottom: 0;
+}
+.three span{
+    background-color: rgba(179, 121, 45, 0.295);
+    color: black;
+    padding: 10px 13px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+#trend3{
+    width: 30%;
+    border-radius: 10px;
+}
+#start111 {
+    display: flex;
+    padding: 30px;
+}
+.start000 {
+    display: block;
+}
+.start000 p{
+    background-color: white;
+    font-weight: normal;
+    font-size: 10px;
+    color: black;
+    font-family: Arial;
+    padding: 15px 20px;
+    margin-top: 100px;
+    text-align: left;
+    margin-left: -50px;
+}
+.start000 i{
+    font-size: 20px;
+    color: red;
+}
+.start000 h4{
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 20px;
+    padding-bottom: 0;
+}
+.order{
+    display: flex;
+    width: 80%;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+.order .div1{
+    display: block;
+    width: 70%;
+    margin-top: 50px;
+}
+.order h2{
+    font-size: 20px;
+    font-family: arial;
+    color: black;
+    text-align: center;
+}
+.order h3{
+    font-size: 15px;
+    color: rgba(179, 121, 45, 0.295);
+    text-align: center;
+}
+input[type= email]{
+    background-color: rgba(179, 121, 45, 0.295);
+    width: 50%;
+    justify-content: center;
+    color: black;
+    padding: 15px 10px;
+    border-style: none;
+    font-weight: bold;
+}
+#orderdis{
+    width: 60%;
+    border-radius: 10px;
+}
+.last{
+    background-color: rgba(179, 121, 45, 0.295);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.reviews span{
+    font-size: 30px;
+    color: rgb(114, 114, 48);
+}
+.reviews h6{
+    font-size: 18px;
+    color: rgba(0, 0, 0);
+    padding-bottom: 0;
+}
+.fullreview{
+    display: flex;
+    padding: 40px;
+}
+#full1{
+    display: block;
+    text-align: center;
+    width: 20%;
+    box-shadow:10px 5px 5px rgb(114, 114, 48, 0.5);
+    margin: 5px;
+    height: fit-content;
+    padding: 30px 20px;
+    border-radius: 15px;
+    background-color: rgba(250, 227, 196, 0.274);
+}
+#full1 h3{
+    font-size: 15px;
+    font-family: arial;
+    font-weight: bold;
+}
+#full1 h2{
+    font-size: 10px;
+    color: black;
+}
+#full1 span{
+    font-size: 8px;
+    color: rgba(179, 121, 45, 0.295);
+}
+#full2{
+    display: block;
+    text-align: center;
+    width: 20%;
+    margin: 5px;
+    box-shadow:10px 5px 5px rgb(114, 114, 48, 0.5);
+    height: fit-content;
+    padding: 30px 20px;
+    border-radius: 15px;
+    background-color: rgba(250, 227, 196, 0.274);
+}
+#full2 h3{
+    font-size: 15px;
+    font-family: arial;
+    font-weight: bold;
+}
+#full2 h2{
+    font-size: 10px;
+    color: black;
+}
+#full2 span{
+    font-size: 8px;
+    color: rgba(179, 121, 45, 0.295);
+}
+#full3{
+    display: block;
+    text-align: center;
+    width: 20%;
+    margin: 5px;
+    height: fit-content;
+    box-shadow:10px 5px 5px rgb(114, 114, 48, 0.5);
+    padding: 30px 20px;
+    border-radius: 15px;
+    background-color: rgba(250, 227, 196, 0.274);
+}
+#full3 h3{
+    font-size: 15px;
+    font-family: arial;
+    font-weight: bold;
+}
+#full3 h2{
+    font-size: 10px;
+    color: black;
+}
+#full3 span{
+    font-size: 8px;
+    color: rgba(179, 121, 45, 0.295);
+}
+.last h1{
+    font-size: 30px;
+}
+.last ul li{
+    list-style-type: none;
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.384);
+    color: black;
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+}
+footer h4{
+    margin: 0;
+    
+}
+/*Link decoration*/
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:active{
+    text-decoration: underline;
+}
+/* Responsiveness for phones*/
+@media screen and (max-width: 600px) {
+    body{
+        margin-left: 3px;
+    }
+    nav h1{
+        font-size: 15px;
+        height: 15px;
+        color: black;
+    }
+    #search{
+        display: none;
+    }
+    #searchweb{
+        display: none;
+    }
+    nav ul li {
+        padding-left: 5px;
+        font-size: 8px;
+   }
+    .one{
+        display: block;
+    }
+    .one h2{
+        font-size: 20px;
+    }
+    .one h3 {
+        font-size: 5px;
+        margin-bottom: 5px;
+    }
+    .one span {
+        padding: 3px 5px;
+        font-size: 6px;
+    }
+    #pic1{
+        width: 80%;
+        height: 200px;
+        margin-top: 10px;
+    }
+    .one_pics{
+        display: inline-flex;
+    }
+    #pic2{
+        width: 40%;
+        height: 100px;
+        margin-left: -5px;
+}
+    /*At this point, i believe say tech don dey carry me go 
+    where i no know o. 10 hours spent. More to go 💪💪
+    edited: second day on this project. at this point i no even sure say
+    i go finish am.*/
+    #pic21{
+        width: 40%;
+        height: 100px;
+        border-top-right-radius: 0;
+    }
+    .three {
+        padding-top: 0;
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+    .three h3 {
+        font-size: 8px;
+        margin-left: 30px;
+    }
+    #check{
+        font-size: 5px;
+        margin-right: 10px;
+    }
+    #trend1{
+        width: 50%;
+        height: 300px;
+    }
+    .start1{
+        padding: 10px;
+    }
+    .start0 p{
+        font-size: 5px;
+        padding: 5px 8px;
+        margin-top: 30px;
+        margin-left: -15%;
+        margin-bottom: 0;
+    }
+    .start0 i{
+        font-size: 7px;
+    }
+    .three span{
+        padding: 3px 5px;
+        margin-bottom: 5px;
+        margin-left: 3px;
+        font-size: 10px;
+        margin-top: 0;
+    }
+    .start0 h4{
+        font-size: 7px;
+        padding-left: 5px;
+        padding-bottom: 0;
+    }
+    .start00 p{
+        font-size: 5px;
+        padding: 5px 8px;
+        margin-top: 30px;
+        margin-left: -15%;
+        margin-bottom: 0;
+    }
+    .start00 i{
+        font-size: 7px;
+    }
+    .start00 h4{
+        font-size: 7px;
+        padding-left: 5px;
+        padding-bottom: 0;
+    }
+    #trend2{
+        width: 50%;
+        height: 300px;
+        padding-top: 0;
+    }
+    .start0 h4{
+        font-size: 7px;
+        padding-left: 5px;
+        padding-bottom: 0;
+    }
+    .start000 p{
+        font-size: 5px;
+        padding: 5px 8px;
+        margin-top: 30px;
+        margin-left: -15%;
+        margin-bottom: 0;
+    }
+    .start000 i{
+        font-size: 7px;
+    }
+    .start000 h4{
+        font-size: 7px;
+        padding-left: 5px;
+        padding-bottom: 0;
+    }
+    #trend3{
+        width: 50%;
+        height: 300px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}  
+/* Responsiveness for Tablets*/
+@media screen and (max-width: 768px) {
+    body{
+        margin-left: 3px;
+    }
+    #search{
+        display: none;
+    }
+    #searchweb{
+        width: 60px;
+    }
+    nav ul li{
+        padding-left: 10px;
+    }
+    .one h2{
+        font-size: 20px;
+    }
+    .one h3 {
+        font-size: 10px;
+    }
+    #pic1{
+        width: 300px;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .one_pics{
+        padding-left: 5px;
+    }
+    #pic2{
+        width: 150px;
+        height: 100px;
+        border-top-right-radius: 10px;
+    }
+    #pic21{
+        width: 150px;
+        height: 100px;
+        border-bottom-right-radius: 10px;
+    }
+    #bd1{
+        width: 15%;
+        height: 40px;
+    } 
+}
+/* Screen Resolution for IpadMini*/
+@media screen and (max-width: 1050px){
+#bd1{
+    width: 15%;
+    height: 70px;
+} 
+}
